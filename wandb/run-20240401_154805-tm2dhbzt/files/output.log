@@ -1,0 +1,71 @@
+
+
+  0%|                               | 1/207858 [00:34<1997:51:41, 34.60s/it]
+{'loss': 14.1709, 'grad_norm': 104.9356918334961, 'learning_rate': 2.4054652169729626e-10, 'epoch': 0.0}
+
+  0%|                               | 2/207858 [00:48<1295:48:03, 22.44s/it]
+{'loss': 13.4374, 'grad_norm': 106.6569595336914, 'learning_rate': 7.216395650918888e-10, 'epoch': 0.0}
+
+  0%|                                       | 7/207858 [00:57<174:30:52,  3.02s/it]
+{'loss': 15.245, 'grad_norm': 109.21675872802734, 'learning_rate': 1.2027326084864815e-09, 'epoch': 0.0}
+{'loss': 14.5314, 'grad_norm': 100.47085571289062, 'learning_rate': 1.4432791301837777e-09, 'epoch': 0.0}
+
+  0%|                                       | 8/207858 [00:59<151:27:55,  2.62s/it]
+{'loss': 13.4444, 'grad_norm': 94.20762634277344, 'learning_rate': 1.92437217357837e-09, 'epoch': 0.0}
+
+  0%|                                       | 9/207858 [01:00<111:56:01,  1.94s/it]
+
+  0%|                                       | 11/207858 [01:03<94:45:34,  1.64s/it]
+
+  0%|                                      | 13/207858 [01:09<123:33:35,  2.14s/it]
+{'loss': 11.5255, 'grad_norm': 93.17174530029297, 'learning_rate': 2.8865582603675553e-09, 'epoch': 0.0}
+
+  0%|                                      | 15/207858 [01:15<138:22:21,  2.40s/it]
+{'loss': 13.3174, 'grad_norm': 91.82429504394531, 'learning_rate': 3.3676513037621478e-09, 'epoch': 0.0}
+
+  0%|                                   | 16/207858 [01:19<171:47:20,  2.98s/it]
+
+  0%|                                   | 17/207858 [01:20<140:19:56,  2.43s/it]
+
+  0%|                                   | 18/207858 [01:24<165:04:51,  2.86s/it]
+
+  0%|                                   | 19/207858 [01:26<148:25:56,  2.57s/it]
+
+  0%|                                   | 20/207858 [01:31<189:30:36,  3.28s/it]
+{'loss': 14.1698, 'grad_norm': 95.15457916259766, 'learning_rate': 4.810930433945926e-09, 'epoch': 0.0}
+
+
+  0%|                                   | 22/207858 [01:36<177:43:21,  3.08s/it]
+{'loss': 17.3924, 'grad_norm': 109.51860046386719, 'learning_rate': 5.2920234773405174e-09, 'epoch': 0.0}
+
+
+  0%|                                   | 25/207858 [01:43<144:07:20,  2.50s/it]
+{'loss': 14.6878, 'grad_norm': 97.55368041992188, 'learning_rate': 5.773116520735111e-09, 'epoch': 0.0}
+
+  0%|                                   | 26/207858 [01:47<162:25:53,  2.81s/it]
+
+  0%|                                   | 27/207858 [01:48<142:40:49,  2.47s/it]
+  0%|                                   | 27/207858 [01:48<142:40:49,  2.47s/it]Traceback (most recent call last):
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py", line 112, in <module>
+    main()
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py", line 105, in main
+    trainer.train()  # TODO: resume training
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 2085, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/accelerate/data_loader.py", line 462, in __iter__
+    next_batch = next(dataloader_iter)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 630, in __next__
+    data = self._next_data()
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1328, in _next_data
+    idx, data = self._get_data()
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1284, in _get_data
+    success, data = self._try_get_data()
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/utils/data/dataloader.py", line 1132, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/usr/lib/python3.9/queue.py", line 180, in get
+    self.not_empty.wait(remaining)
+  File "/usr/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

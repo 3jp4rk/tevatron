@@ -1,0 +1,321 @@
+{
+    "os": "Linux-5.15.0-86-generic-x86_64-with-glibc2.35",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-04-01T11:32:06.268294",
+    "startedAt": "2024-04-01T11:32:02.434005",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--output_dir",
+        "/home/ubuntu/data/ejpark/retriever_model_s1_resumed",
+        "--model_name_or_path",
+        "/home/ubuntu/data/ejpark/retriever_model_s1/checkpoint-1000/",
+        "--tokenizer_name",
+        "tunib/electra-ko-en-base",
+        "--save_steps",
+        "500",
+        "--per_device_train_batch_size",
+        "64",
+        "--learning_rate",
+        "5e-6",
+        "--num_train_epochs",
+        "3",
+        "--dataloader_num_workers",
+        "4",
+        "--report_to",
+        "wandb",
+        "--logging_steps",
+        "1"
+    ],
+    "state": "running",
+    "program": "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py",
+    "codePathLocal": "src/tevatron/retriever/driver/train.py",
+    "codePath": "src/tevatron/retriever/driver/train.py",
+    "git": {
+        "remote": "https://github.com/3jp4rk/tevatron.git",
+        "commit": "d1816cfccf41fc55859a0831b7db1e4ab5f087a6"
+    },
+    "email": "mari970@naver.com",
+    "root": "/home/ubuntu/ejpark/tevatron",
+    "host": "gpu-1",
+    "username": "ubuntu",
+    "executable": "/home/ubuntu/ejpark/con_venv/bin/python",
+    "cpu_count": 48,
+    "cpu_count_logical": 48,
+    "cpu_freq": {
+        "current": 2794.75,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2794.75,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 193.6498260498047,
+            "used": 184.8303680419922
+        }
+    },
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        },
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        },
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        },
+        {
+            "name": "NVIDIA A100-SXM4-80GB",
+            "memory_total": 85899345920
+        }
+    ],
+    "memory": {
+        "total": 885.4374961853027
+    }
+}

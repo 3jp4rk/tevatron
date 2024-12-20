@@ -1,0 +1,182 @@
+
+
+  0%|                | 1/51966 [01:03<916:14:05, 63.47s/it]
+{'loss': 16.6672, 'grad_norm': 69.33356475830078, 'learning_rate': 9.620935154897056e-10, 'epoch': 0.0}
+
+  0%|                             | 3/51966 [01:15<263:50:12, 18.28s/it]
+{'loss': 16.4908, 'grad_norm': 90.82154083251953, 'learning_rate': 2.8862805464691174e-09, 'epoch': 0.0}
+
+  0%|                             | 4/51966 [01:17<167:15:57, 11.59s/it]
+
+  0%|                              | 6/51966 [01:19<81:12:17,  5.63s/it]
+{'loss': 17.4028, 'grad_norm': 69.3691635131836, 'learning_rate': 5.772561092938235e-09, 'epoch': 0.0}
+{'loss': 16.3313, 'grad_norm': 64.51174926757812, 'learning_rate': 6.734654608427939e-09, 'epoch': 0.0}
+{'loss': 15.2711, 'grad_norm': 60.279212951660156, 'learning_rate': 7.696748123917645e-09, 'epoch': 0.0}
+
+  0%|                              | 9/51966 [01:23<37:50:15,  2.62s/it]
+
+
+  0%|                                   | 11/51966 [01:41<92:23:03,  6.40s/it]
+{'loss': 16.6169, 'grad_norm': 65.50917053222656, 'learning_rate': 1.0583028670386762e-08, 'epoch': 0.0}
+
+  0%|                                   | 12/51966 [01:42<69:46:28,  4.83s/it]
+
+
+  0%|                                   | 14/51966 [01:49<59:04:08,  4.09s/it]
+{'loss': 14.6683, 'grad_norm': 62.127437591552734, 'learning_rate': 1.3469309216855879e-08, 'epoch': 0.0}
+
+  0%|                                   | 15/51966 [01:56<74:47:10,  5.18s/it]
+
+  0%|                                   | 16/51966 [01:58<58:20:19,  4.04s/it]
+
+
+  0%|                                   | 18/51966 [02:09<74:57:04,  5.19s/it]
+
+  0%|                                   | 19/51966 [02:15<78:37:16,  5.45s/it]
+{'loss': 15.4698, 'grad_norm': 62.94794464111328, 'learning_rate': 1.827977679430441e-08, 'epoch': 0.0}
+
+
+  0%|                                   | 21/51966 [02:19<55:48:37,  3.87s/it]
+
+  0%|                                   | 22/51966 [02:27<73:51:23,  5.12s/it]
+
+  0%|                                   | 23/51966 [02:33<75:38:24,  5.24s/it]
+{'loss': 15.8357, 'grad_norm': 64.88294982910156, 'learning_rate': 2.212815085626323e-08, 'epoch': 0.0}
+
+
+  0%|                                   | 25/51966 [02:37<52:55:37,  3.67s/it]
+
+  0%|                                   | 26/51966 [02:45<71:43:42,  4.97s/it]
+{'loss': 15.8806, 'grad_norm': 63.501670837402344, 'learning_rate': 2.501443140273235e-08, 'epoch': 0.0}
+
+  0%|                                   | 27/51966 [02:50<73:16:33,  5.08s/it]
+
+  0%|                                   | 28/51966 [02:52<56:47:23,  3.94s/it]
+
+  0%|                                   | 29/51966 [02:55<53:23:43,  3.70s/it]
+
+
+  0%|                                   | 31/51966 [03:07<70:44:28,  4.90s/it]
+{'loss': 14.6057, 'grad_norm': 58.3876838684082, 'learning_rate': 2.982489898018088e-08, 'epoch': 0.0}
+
+  0%|                                   | 32/51966 [03:09<54:56:16,  3.81s/it]
+
+  0%|                                   | 33/51966 [03:10<46:06:18,  3.20s/it]
+
+
+  0%|                                   | 35/51966 [03:23<69:01:39,  4.79s/it]
+{'loss': 16.0419, 'grad_norm': 64.89759063720703, 'learning_rate': 3.36732730421397e-08, 'epoch': 0.0}
+
+
+  0%|                                   | 37/51966 [03:27<49:02:16,  3.40s/it]
+
+  0%|                                   | 38/51966 [03:34<61:56:04,  4.29s/it]
+{'loss': 14.8468, 'grad_norm': 61.22290802001953, 'learning_rate': 3.655955358860882e-08, 'epoch': 0.0}
+
+  0%|                                   | 39/51966 [03:39<67:02:11,  4.65s/it]
+
+  0%|                                   | 40/51966 [03:41<52:42:15,  3.65s/it]
+
+  0%|                                   | 41/51966 [03:42<45:22:00,  3.15s/it]
+
+  0%|                                   | 42/51966 [03:49<59:35:31,  4.13s/it]
+
+  0%|                                   | 44/51966 [03:56<51:33:33,  3.57s/it]
+{'loss': 15.9195, 'grad_norm': 63.48552703857422, 'learning_rate': 4.233211468154705e-08, 'epoch': 0.0}
+
+  0%|                                   | 45/51966 [03:58<45:00:52,  3.12s/it]
+
+  0%|                                   | 46/51966 [04:05<62:58:32,  4.37s/it]
+
+  0%|                                   | 47/51966 [04:10<65:51:00,  4.57s/it]
+
+  0%|                                   | 48/51966 [04:12<55:07:05,  3.82s/it]
+
+  0%|                                   | 49/51966 [04:14<47:06:01,  3.27s/it]
+
+
+  0%|                                   | 51/51966 [04:26<63:43:47,  4.42s/it]
+{'loss': 15.8168, 'grad_norm': 66.16494750976562, 'learning_rate': 4.906676928997499e-08, 'epoch': 0.0}
+
+  0%|                                   | 52/51966 [04:28<56:34:47,  3.92s/it]
+
+
+  0%|                                   | 54/51966 [04:36<56:24:48,  3.91s/it]
+{'loss': 15.8453, 'grad_norm': 64.26150512695312, 'learning_rate': 5.195304983644411e-08, 'epoch': 0.0}
+
+  0%|                                   | 55/51966 [04:41<62:32:38,  4.34s/it]
+
+  0%|                                   | 57/51966 [04:45<45:53:09,  3.18s/it]
+{'loss': 15.8599, 'grad_norm': 66.53677368164062, 'learning_rate': 5.4839330382913226e-08, 'epoch': 0.0}
+
+  0%|                                   | 58/51966 [04:51<54:19:39,  3.77s/it]
+
+
+  0%|                                   | 60/51966 [04:59<57:56:53,  4.02s/it]
+
+  0%|                                   | 61/51966 [05:01<46:44:40,  3.24s/it]
+{'loss': 16.4542, 'grad_norm': 66.71742248535156, 'learning_rate': 5.868770444487205e-08, 'epoch': 0.0}
+
+
+  0%|                             | 63/51966 [05:17<86:42:43,  6.01s/it]
+{'loss': 16.605, 'grad_norm': 65.0092544555664, 'learning_rate': 6.061189147585145e-08, 'epoch': 0.0}
+
+  0%|                             | 65/51966 [05:20<51:59:21,  3.61s/it]
+
+  0%|                             | 66/51966 [05:21<42:09:27,  2.92s/it]
+{'loss': 16.2399, 'grad_norm': 64.40192413330078, 'learning_rate': 6.349817202232058e-08, 'epoch': 0.0}
+
+  0%|                             | 67/51966 [05:25<45:09:14,  3.13s/it]
+
+  0%|                             | 69/51966 [05:29<38:27:04,  2.67s/it]
+{'loss': 16.9651, 'grad_norm': 64.35665893554688, 'learning_rate': 6.638445256878968e-08, 'epoch': 0.0}
+
+  0%|                             | 70/51966 [05:35<49:10:46,  3.41s/it]
+
+  0%|                             | 71/51966 [05:39<54:30:25,  3.78s/it]
+{'loss': 15.5366, 'grad_norm': 64.58705139160156, 'learning_rate': 6.927073311525881e-08, 'epoch': 0.0}
+
+  0%|                             | 73/51966 [05:43<40:25:24,  2.80s/it]
+
+  0%|                             | 74/51966 [05:49<53:50:21,  3.74s/it]
+
+  0%|                             | 75/51966 [05:53<55:35:40,  3.86s/it]
+
+  0%|                             | 77/51966 [05:58<41:50:45,  2.90s/it]
+{'loss': 16.5019, 'grad_norm': 63.616546630859375, 'learning_rate': 7.408120069270734e-08, 'epoch': 0.0}
+
+  0%|                             | 78/51966 [06:03<53:04:28,  3.68s/it]
+
+  0%|                             | 79/51966 [06:07<55:03:35,  3.82s/it]
+
+  0%|                             | 81/51966 [06:12<42:58:48,  2.98s/it]
+{'loss': 16.2133, 'grad_norm': 68.25873565673828, 'learning_rate': 7.792957475466616e-08, 'epoch': 0.0}
+
+
+  0%|                             | 83/51966 [06:22<56:26:05,  3.92s/it]
+  0%|                             | 83/51966 [06:22<56:26:05,  3.92s/it]Error in sys.excepthook:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/linecache.py", line 72, in checkcache
+    stat = os.stat(fullname)
+KeyboardInterrupt
+Original exception was:
+Traceback (most recent call last):
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py", line 112, in <module>
+    main()
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py", line 105, in main
+    trainer.train()  # TODO: resume training
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 2118, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/trainer.py", line 49, in training_step
+    return super(TevatronTrainer, self).training_step(*args) / self._dist_loss_scale_factor
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 3045, in training_step
+    self.accelerator.backward(loss)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/accelerate/accelerator.py", line 2001, in backward
+    loss.backward(**kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/_tensor.py", line 492, in backward
+    torch.autograd.backward(
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/autograd/__init__.py", line 251, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt

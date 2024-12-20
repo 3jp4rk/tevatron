@@ -1,0 +1,61 @@
+
+  0%|                         | 0/103929 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py", line 112, in <module>
+    main()
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/driver/train.py", line 105, in main
+    trainer.train()  # TODO: resume training
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 1780, in train
+    return inner_training_loop(
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 2118, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/trainer.py", line 49, in training_step
+    return super(TevatronTrainer, self).training_step(*args) / self._dist_loss_scale_factor
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/trainer.py", line 3036, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/trainer.py", line 46, in compute_loss
+    return model(query=query, passage=passage).loss
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 185, in forward
+    outputs = self.parallel_apply(replicas, inputs, module_kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/parallel/data_parallel.py", line 200, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/parallel/parallel_apply.py", line 110, in parallel_apply
+    output.reraise()
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/_utils.py", line 694, in reraise
+    raise exception
+RuntimeError: Caught RuntimeError in replica 1 on device 1.
+Original Traceback (most recent call last):
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/parallel/parallel_apply.py", line 85, in _worker
+    output = module(*input, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/modeling/encoder.py", line 48, in forward
+    q_reps = self.encode_query(query) if query else None
+  File "/home/ubuntu/ejpark/tevatron/src/tevatron/retriever/modeling/dense.py", line 11, in encode_query
+    query_hidden_states = self.encoder(**qry, return_dict=True)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/models/bert/modeling_bert.py", line 1006, in forward
+    embedding_output = self.embeddings(
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/transformers/models/bert/modeling_bert.py", line 232, in forward
+    inputs_embeds = self.word_embeddings(input_ids)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1518, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/module.py", line 1527, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/modules/sparse.py", line 162, in forward
+    return F.embedding(
+  File "/home/ubuntu/ejpark/con_venv/lib/python3.9/site-packages/torch/nn/functional.py", line 2233, in embedding
+    return torch.embedding(weight, input, padding_idx, scale_grad_by_freq, sparse)
+RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cuda:0! (when checking argument for argument index in method wrapper_CUDA__index_select)
